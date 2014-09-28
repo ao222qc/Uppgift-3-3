@@ -1,1 +1,104 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+#container
+{
+    margin: 0 auto;
+    width:1024px;
+    height: auto;
+    background-image: url('pics/coffey.jpg');
+    background-size: 1024px 400px;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+#topbar
+{
+    height:20px;
+    border: 1px solid black;
+    text-align:right;
+    color:white;
+    background-color: #3B372F;
+    float:left;
+    width:1024px;
+}
+
+#menu
+{
+    position:relative;
+    top:335px;
+    width:1024px;
+    display:block;
+    font-size: 125%;
+}
+#menu ul 
+{
+    list-style-type:none;
+    height:70px;
+    background-color:#3B372F;
+    width:200;
+}
+#menu ul li
+{
+    list-style-type:none;
+    display:inline;
+}
+#menu ul li a
+{
+    width:10em;
+    text-decoration:none;
+    padding: 1em 2.5em;
+    color: #FFF8DC;
+    position:relative;
+    top:27px;
+    right:33px;
+    background-color: #8B7D6B;
+}
+#menu ul li a:hover
+{
+    background-color: #CDBA96;
+}
+
+.active
+{
+   
+}
+#content
+{
+    position:relative;
+    top: 330px;
+    left:5px;
+    color: #8B7D6B;
+    background-color: #F5F5DC;
+    font-size:150%
+}
+
+img
+{
+    float:left;
+    height:200px;
+    width:200px;
+}
+#maincontent
+{
+    float:left;
+    text-align:left;
+    width:400px;
+    height:700px;
+    display:block;
+    
+}
+#subcontent
+{
+    text-align:left;
+    width:700px;
+    position:relative;
+    left:300px;
+    top:25px;
+    
+}
+#bottomcontent
+{
+    text-align:center;
+    position:relative;
+    top:100px;
+    float:left;
+    right:415px;
+}
