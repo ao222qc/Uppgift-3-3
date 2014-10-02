@@ -1,22 +1,20 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 #container
 {
-    margin: 0 auto;
+    margin:0 auto;
     width:1024px;
-    height: 1200px;
-    background-image: url('pics/coffey.jpg');
+    height: 1500px;
+    background-image: url("pics/coffey.jpg");
     background-size: 1024px 400px;
     background-repeat: no-repeat;
-    background-position:top;
 }
 #topbar
 {
     height:20px;
-    border: 1px solid black;
+    float:left;
     text-align:right;
     color:white;
     background-color: #3B372F;
-    float:left;
     width:1024px;
 }
 a[href="#maincontent"]
@@ -24,57 +22,54 @@ a[href="#maincontent"]
 
 #menu
 {
-    position:relative;
-    top:335px;
-    width:1024px;
-    font-size: 125%;
-    display:block;
+    background-image: url("pics/coffey.jpg");
+    background-size: 1024px 400px;
+    background-repeat: no-repeat;
 }
 
 #menu ul 
 {
+    position:relative;
+    top:345px;
     list-style-type:none;
     height:70px;
-    background-color:#3B372F;
-    width:200;
+    background-color:#51473D;
 }
 #menu ul li
 {
-    list-style-type:none;
-    display:inline;
+    float:left;
 }
-#menu ul li a
+#menu  a
 {
-    
     text-decoration:none;
     padding: 1em 2.5em;
-    color: #FFF8DC;
+    color: #DCE7C5;
     position:relative;
-    top:27px;
+    top:23px;
     right:33px;
     background-color: #8B7D6B;
 }
 #menu ul li a:hover
 {
-    background-color: #CDBA96;
+    background-color: #9C9084;
 }
 
-.active
+#menu .active a
 {
-  
+    background-color: #EAE7D2;
+    color: #797066 ;
 }
+
 #content
 {
-    height:900px;
+    height:650px;
     width:1024px;
-    position:relative;
-    top: 303px;
-    left:3px;
+    float:left;
     color: #8B7D6B;
-    background-color:#D3D3D3;
-    font-size:150%
-    
-    
+    background-color:#EAE7D2;
+    font-size:150%;
+    position:relative;
+    top:315px;
 }
 
 img
@@ -87,27 +82,17 @@ img
 {
     float:left;
     text-align:left;
-    width:350px;
+    width:512px;
     height:600px;
-    
-    
-    
 }
 #subcontent
 {
-    text-align:left;
-    width:700px;
-    position:relative;
-    left:300px;
-    top:30px;
-   
-    
+  float:left;
+  width:512px;
 }
+
 #bottomcontent
 {
-    text-align:center;
-    position:relative;
-    top:225px;
     float:left;
-    right:360px;
+    width:513px;
 }
